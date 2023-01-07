@@ -60,10 +60,98 @@ export default function Sidebar() {
           <li className="sidebarFriend">
             <img
               className="sidebarFriendImg"
-              src="/assets/person/2.jpg"
+              src="/assets/person/9.jpg"
               alt=""
             />
             <span className="sidebarFriendName">Hayat</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/10.jpg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Asif</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/9.jpg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Shaharyar</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/5.jpg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Sarmad</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/6.jpg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Monis</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/7.jpg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Danny</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/7.jpg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Balawal</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/7.jpg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Dilshad</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/7.jpg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Khurshid</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/7.jpg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Wasim</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/7.jpg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Shadab</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/7.jpg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Soban</span>
           </li>
         </ul>
       </div>
