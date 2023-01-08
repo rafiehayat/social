@@ -1,14 +1,25 @@
 import "./post.css";
 import { MoreVert } from "@material-ui/icons";
+// import { Users } from "../../dummyData";
 
 export default function Post({ post }) {
+  // const user = Users.filter((u) => u.id === 1);
+  // console.log(user[0].userId);
   return (
     <div className="post">
       <div className="postWrapper">
         <div className="postTop">
           <div className="postTopLeft">
             <img className="postProfileImg" src="/assets/person/1.jpg" alt="" />
-            <span className="postUsername">Rafie Hayat</span>
+            {/* <img
+              className="postProfileImg"
+              src={Users.filter((u) => u.id === post.userId)[0].profilePicture}
+              alt=""
+            /> */}
+            <span className="postUsername"> Hayat</span>
+            {/* <span className="postUsername">
+              {Users.filter((u) => u.id === post?.userId)[1].username}
+            </span> */}
             <span className="postDate">{post?.dates}</span>
           </div>
           <div className="postTopRight">
