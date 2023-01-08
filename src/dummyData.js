@@ -3,61 +3,51 @@ export const Users = [
     id: 1,
     profilePicture: "assets/person/1.jpg",
     username: "Rafie Hayat",
-    userId: 1,
   },
   {
     id: 2,
     profilePicture: "assets/person/2.jpg",
     username: "Shaharyar Hussain",
-    userId: 2,
   },
   {
     id: 3,
     profilePicture: "assets/person/3.jpg",
     username: "Asif Khan",
-    userId: 3,
   },
   {
     id: 4,
     profilePicture: "assets/person/4.jpg",
     username: "Khurshid Khan",
-    userId: 4,
   },
   {
     id: 5,
     profilePicture: "assets/person/5.jpg",
     username: "Daniyal",
-    userId: 5,
   },
   {
     id: 6,
     profilePicture: "assets/person/6.jpg",
     username: "Balawal",
-    userId: 6,
   },
   {
     id: 7,
     profilePicture: "assets/person/7.jpg",
     username: "Monis",
-    userId: 7,
   },
   {
     id: 8,
     profilePicture: "assets/person/8.jpg",
     username: "Dilshad",
-    userId: 8,
   },
   {
     id: 9,
     profilePicture: "assets/person/9.jpg",
     username: "Soban",
-    userId: 9,
   },
   {
     id: 10,
     profilePicture: "assets/person/10.jpg",
     username: "Wasim",
-    userId: 10,
   },
 ];
 
