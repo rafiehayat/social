@@ -5,17 +5,20 @@ import "./feed.css";
 import axios from "axios";
 // import { Posts } from "../../dummyData";
 
-export default function Feed() {
+export default function Feed({ username }) {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
     const fetchPosts = async () => {
-      const res = await axios.get("posts/timeline/63bed8d58af6a6ae754fe604");
+      const res = username
+        ? await axios.get("/posts/profile/" + username)
+        : await axios.get("posts/timeline/63bed8e88af6a6ae754fe606");
+      // await axios.get("posts/timeline/" + username._id);
       setPosts(res.data);
     };
-
     fetchPosts();
-  }, []);
+  }, [username]);
+
   return (
     <div className="feed">
       <div className="feedWrapper">
